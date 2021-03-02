@@ -1,4 +1,4 @@
-# Welcome to the Shakespearean word Translator
+# Welcome to the Shakespearean Word Translator
 This is a mini-project that converts words from a shakespearean phrase/sentence into regular english using a table of values (in CSV format).
 
 ![Terminal Screenshot](https://user-images.githubusercontent.com/60077374/109578792-09fa4d00-7ab5-11eb-8447-f9f8ec5600f0.png)
