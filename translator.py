@@ -1,7 +1,14 @@
 import csv
 from rich import print
 
-sentence = input("Type a sentence: ")
+try:
+    sentence = input("Type a sentence: ")
+    while sentence == "":
+        sentence = input("[EMPTY] Type a sentence: ")
+except KeyboardInterrupt:
+    print('\n\nNever mind.')
+    quit()
+
 # Convert string to list
 list_of_words = sentence.split()
 
