@@ -18,7 +18,7 @@ The design is meant to be compact and fast while also keeping it simple. You may
 There are a few flaws that can only be solved through human-interpretation or
 artificial intellegence (that would also need some context).
 
-### Major
+#### Major
 - The use of words such as "art" which translates to "are".
 Shakespeare sometimes refers to the modern version of art which means that
 translating the word would be incorrect.
@@ -33,5 +33,5 @@ by the user.
 ## Contribution
 ### Words
 There is a whole library full of words that aren't in the csv file (such as "Liketh"). Please feel free to add any to make this program more accurate!
-
+### Issues
 Please create an issue if there is something that doesn't work, or an improvement needs to be made. There are already existing issues that are up, so make sure to give those a look if you plan on forking the repo :smile:
