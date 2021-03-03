@@ -15,23 +15,14 @@ That's it!
 The design is meant to be compact and fast while also keeping it simple. You may notice that searching through the list of shakespearean words is implemented using a linear search algorithm, which is quite simple and time efficient as there isn't that many words.
 
 ### Flaws
-There are a few flaws that can only be solved through human-interpretation or
-artificial intellegence (that would also need some context).
-
-#### Major
+- Many words aren't going to be translated. [Contribute](#Contribution) to add to the list of words!
 - The use of words such as "art" which translates to "are".
 Shakespeare sometimes refers to the modern version of art which means that
 translating the word would be incorrect.
-#### Minor
-- Punctuation also gets in the way as it is treated as 1 word meaning it won't
-    be compared correctly. A period at the end of a word could be
-removed (see the issues for more info.), but this could also be done manually
-by the user.
-- Words that have capitals are not returned as capitals. Every word is
-    lowercased in the translation (see the issues for more info.).
+> The output provides the input **and** the translation so the user can easily see the original word if the translation doesn't make sense.
 
 ## Contribution
 ### Words
-There is a whole library full of words that aren't in the csv file (such as "Liketh"). Please feel free to add any to make this program more accurate!
+There is a whole library full of words that aren't in the csv file (such as "liketh" or "doth"). Please feel free to add any to make this program more accurate!
 ### Issues
 Please create an issue if there is something that doesn't work, or an improvement needs to be made. There are already existing issues that are up, so make sure to give those a look if you plan on forking the repo :smile:
