@@ -1,7 +1,8 @@
 # Welcome to the Shakespearean Word Translator
 This is a mini-project that converts words from a shakespearean phrase/sentence into regular english using a table of values (in CSV format).
 
-![Terminal Screenshot](https://user-images.githubusercontent.com/60077374/109578792-09fa4d00-7ab5-11eb-8447-f9f8ec5600f0.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/60077374/109887665-5ec9cf00-7c3f-11eb-8dd2-2c8b212fbbd0.png"></p>
+
 > The program uses the `rich` pip module give a readable output.
 
 ## Dependencies
